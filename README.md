@@ -325,8 +325,6 @@ You should see log lines like:
 
 ## Summary
 
-This is essentially “GUI automation as infrastructure”:
-
 - Proton runs the Windows dedicated server
 - Xvfb provides a display so the GUI can exist in a headless container
 - openbox makes focus/activation reliable
@@ -334,4 +332,4 @@ This is essentially “GUI automation as infrastructure”:
 - `disable_steam=1` prevents Steam service initialization from blocking startup
 - symlinks fix missing asset paths when launching from `bin/`
 
-It’s simple, stable, and works well in Pterodactyl where you cannot interact with a GUI window manually.
+keep in mind that this may break easily when the devs update anything.
